@@ -1,0 +1,27 @@
+{
+  "name": "randnum",
+  "version": "0.0.1",
+  "description": "A npm package that exports functions to generate random numbers",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanvir23/randnum.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "random",
+    "number",
+    "javascript",
+    "es6"
+  ],
+  "author": "Md Tanvirul Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanvir23/randnum/issues"
+  },
+  "homepage": "https://github.com/tanvir23/randnum#readme"
+}
