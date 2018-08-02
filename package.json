@@ -7,6 +7,7 @@
     "build": "npm run clean && npm run lint && babel ./src -d ./lib",
     "clean": "rm -rf lib",
     "lint": "eslint ./src",
+    "prepublishOnly": "npm run build",
     "test": "nyc mocha --require babel-core/register"
   },
   "repository": {
