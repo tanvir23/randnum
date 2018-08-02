@@ -7,7 +7,7 @@
     "build": "npm run clean && npm run lint && babel ./src -d ./lib",
     "clean": "rm -rf lib",
     "lint": "eslint ./src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     "babel-preset-env": "1.7.0",
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "13.0.0",
-    "eslint-plugin-import": "2.13.0"
+    "eslint-plugin-import": "2.13.0",
+    "mocha": "5.2.0"
   }
 }
